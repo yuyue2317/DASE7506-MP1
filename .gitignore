@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore experimental runs
+runs/
+
+# Ignore PyTorch checkpoints by default
+*.pt
+
+# Keep the final submission checkpoint
+!final_checkpoint/checkpoint.pt
